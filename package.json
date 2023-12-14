@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "ci-check": "npm format:diff",
+    "ci-check": "npm run format:diff",
     "format": "prettier --write \"**/*.{js,md,scss}\"",
     "format:diff": "prettier --list-different \"**/*.{js,md,scss}\""
   },
@@ -15,6 +15,7 @@
     "@carbon/icons-react": "^11.32.0",
     "@carbon/react": "^1.45.0",
     "next": "14.0.4",
+    "prettier": "^3.1.1",
     "react": "^18",
     "react-dom": "^18"
   },

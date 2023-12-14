@@ -1,5 +1,7 @@
-import { AppHeader } from "@/components/AppHeader";
+"use client";
 import { Content, Theme } from "@carbon/react";
+import { AppHeader } from "@/components/AppHeader/AppHeader";
+import { LandingPage } from "./LandingPage";
 
 export default function Home() {
   return (
@@ -7,7 +9,9 @@ export default function Home() {
       <Theme theme="g100">
         <AppHeader></AppHeader>
       </Theme>
-      <Content>Helloo</Content>
+      <Content>
+        <LandingPage />
+      </Content>
     </>
   );
 }
